@@ -6,7 +6,11 @@ nav {
     padding: 0px;
     height: 10%;
     text-align: center;
-   
+    vertical-align: text-bottom;
+    font: 14px/24px;
+  padding: 0px;
+  
+    
 
     
 }
@@ -18,29 +22,74 @@ header {
     height:10%;
     padding: 0px;
     text-align: center;
+    font: 14px/24px;
+  padding: 0px;
+  border-radius: 6px;
+
+    justify-content: center;
+    
 
 }
 body {background-color: gray;
 }
 
-.section {background-color: white;
+section {background-color: white;
     color:black;
-    padding: 15px;
     text-align: center;
     width: 60%;
-    height: 30%;
+    height: 40%;
+    
+    
+    
 }
+p1 {background-color:gray;
+    color: white;
+    text-align: center;
+    width: 0%;
+    height: 0%;
+    
+
+}
+
+
+    article {background-color: gray;
+        text-align: center;
+        width: 90%;
+    height: 70%;
+    border-radius: 3px;
+    padding-left:20px;
+    margin: auto;
+
+
+    }
+    
+    
+
 .aside {background-color: white;
     color:black;
-    padding: 15px;
     text-align: center;
-    width: 32%;
-    height: 30%;
-    float: right;
-    position: relative;
-    bottom: 242px;
+    float: right; top: 30%;
+    width: 30%;
+    height: 40%;
+    position: relative;top: -257px;
     
     
+}
+    
+     h1 {background-color: white;
+        color: black;
+        width: 90%;        
+        height: 20%;
+        text-align: center;
+
+
+     }
+
+h2 {background-color: white;
+    color: black;
+    width: 90%;
+    height: 20%;
+    text-align: center;
 
 }
 
@@ -50,7 +99,8 @@ body {background-color: gray;
     color: black;
     padding: 15px;
     text-align: center;
-    position: static;
+    
+    
     
 
 
